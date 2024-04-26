@@ -22,32 +22,40 @@
 					<div class="menu__body">
 						<ul class="menu__list">
 							<li class="menu__item">
-								<a href="" class="menu__link">Home</a>
+								<a href="#home" data-goto=".main" class="menu__link">Home</a>
 							</li>
 							<li class="menu__item">
-								<a href="" class="menu__link">About</a>
+								<a href="#services" data-goto=".services" class="menu__link">Services</a>
 							</li>
 							<li class="menu__item">
-								<a href="" class="menu__link">Pages</a>
+								<a href="#why" data-goto=".why" class="menu__link">Why</a>
 							</li>
 							<li class="menu__item">
-								<a href="" class="menu__link">Services</a>
+								<a href="#testimonials" data-goto="testimonials" class="menu__link">Testimonials</a>
+							</li>
+							<li class="menu__item">
+								<a href="#blog" data-goto="blog" class="menu__link">Blog</a>
 							</li>
 						</ul>
 					</div>
 				</nav>
+				<!--
+
+				
 				<a href="" class="header__card card-header">
 					<span class="card-header__text">Cart</span>
 					<span class="card-header__quantuty">0</span>
 				</a>
-				<a href="" class="header__button button">Get started</a>
+				-->
+				<a href="#" class="header__button button">Get started</a>
 				<button class="icon-menu" type="button">
 					<span></span>
 				</button>
+				
 			</div>
 		</header>
 		<main class="page">
-			<section class="page__main main">
+			<section id='home' class="page__main main">
 				<div class="main__container">
 					<div class="main__content">
 						<div class="main__header header-main">
@@ -100,7 +108,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="page__services services">
+			<section id='services' class="page__services services">
 				<div class="services__container">
 					<div class="services__content">
 						<div class="services__header header-main">
@@ -165,7 +173,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="page__why why">
+			<section id='why' class="page__why why">
 				<div class="why__container">
 					<div class="why__images images-why">
 						<div class="images-why__item images-why__item-1">
@@ -234,7 +242,7 @@
 
 				</div>
 			</section>
-			<section class="page__testimonials testimonials">
+			<section id='testimonials' class="page__testimonials testimonials">
 				<div class="testimonials__container">
 					<div class="testimonials__header">
 						<div class="testimonials__header header-main">
@@ -327,7 +335,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="page__blog blog">
+			<section id='blog' class="page__blog blog">
 				<div class="blog__container">
 					<div class="blog__header">
 						<div class="blog__header header-main">
